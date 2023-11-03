@@ -1,0 +1,41 @@
+body {
+    background-color: lightsalmon;
+    margin: 5;
+}
+
+.timenbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    cursor: pointer;
+}
+ .showTime {
+    background-color: lightseagreen;
+    width: 1300px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ }
+
+ ul {
+    list-style: none;
+    padding: 0;
+    margin: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    display: inline;
+    display: block;
+    padding: 1.5em 10em 0 8em;
+    text-decoration: none;
+    color: white;
+  }
